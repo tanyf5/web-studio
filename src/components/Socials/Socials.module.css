@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover,
+.item:active,
+.item:focus {
+  background-color: #31d0aa;
+}
+
+.icon {
+  color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

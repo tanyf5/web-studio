@@ -1,0 +1,70 @@
+:root {
+  font-family: "Outfit", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+
+  color-scheme: light dark;
+  color: #434455;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0;
+}
+
+/*laptop*/
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1440px) {
+  body {
+    min-width: 768px;
+  }
+}

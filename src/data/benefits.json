@@ -1,0 +1,26 @@
+[
+  {
+    "id": 111,
+    "icon": "MdSettingsInputAntenna",
+    "title": "Strategy",
+    "text": "Our goal is to identify the business problem to walk away with the perfect and creative solution."
+  },
+  {
+    "id": 112,
+    "icon": "FaRegClock",
+    "title": "Punctuality",
+    "text": "Bring the key message to the brand's audience for the best price within the shortest possible time."
+  },
+  {
+    "id": 113,
+    "icon": "ImStatsDots",
+    "title": "Diligence",
+    "text": "Research and confirm brands that present the strongest digital growth opportunities and minimize risk."
+  },
+  {
+    "id": 114,
+    "icon": "FaUserAstronaut",
+    "title": "Technologies",
+    "text": "Design practice focused on digital experiences. We bring forth a deep passion for problem-solving."
+  }
+]
