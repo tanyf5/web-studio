@@ -14,28 +14,6 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.memberInfo {
-  padding: 32px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.memberInfo > :last-child {
-  margin-top: 16px;
-}
-
-.title {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.image {
-  width: 264px;
-  height: 264px;
-  object-fit: cover;
-}
-
 /*laptop*/
 @media screen and (min-width: 768px) {
   .list {

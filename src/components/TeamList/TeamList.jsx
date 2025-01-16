@@ -1,20 +1,20 @@
-import team from "../../data/team.json";
 import css from "./TeamList.module.css";
-import Socials from "../Socials/Socials";
+import TeamListItem from "../TeamListItem/TeamListItem";
 
-export default function TeamList() {
+export default function TeamList({ members }) {
   return (
     <ul className={css.list}>
-      {team.map((member) => (
-        <li key={member.id} className={css.item}>
-          <img src={member.photo} alt={member.name} className={css.image} />
-          <div className={css.memberInfo}>
-            <h3 className={css.title}>{member.name}</h3>
-            <p className={css.text}>{member.position}</p>
-            <Socials />
-          </div>
-        </li>
-      ))}
+      {members.map((member) => {
+        return (
+          <li key={member.id} className={css.item}>
+            <TeamListItem
+              photo={member.photo}
+              name={member.name}
+              position={member.position}
+            />
+          </li>
+        );
+      })}
     </ul>
   );
 }
