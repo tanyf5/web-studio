@@ -2,19 +2,21 @@
 //import { FaRegClock } from "react-icons/fa6";
 //import { ImStatsDots } from "react-icons/im";
 //import { FaUserAstronaut } from "react-icons/fa6";
-import benefits from "../../data/benefits.json";
-import css from "./Benefits.module.css";
 
-export default function Benefits() {
+import css from "./Benefits.module.css";
+import BenefitItem from "../BenefitItem/BenefitItem";
+
+export default function Benefits({ benefits }) {
   return (
     <section className={css.section}>
       <ul className={css.list}>
-        {benefits.map((benefit) => (
-          <li key={benefit.id} className={css.item}>
-            <h3 className={css.title}>{benefit.title}</h3>
-            <p className={css.text}>{benefit.text}</p>
-          </li>
-        ))}
+        {benefits.map((benefit) => {
+          return (
+            <li key={benefit.id} className={css.item}>
+              <BenefitItem title={benefit.title} text={benefit.text} />
+            </li>
+          );
+        })}
       </ul>
     </section>
   );

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 311,
+    "img": "https://www.macquarie.com.au/digital-banking/macquarie-app/_jcr_content/banner-hero/mobile-image.coreimg.90.1280.jpeg/1664149555204/woman-holding-phone-with-macquarie-bank-app-saving-4-3-1.jpeg",
+    "title": "Banking App",
+    "tag": "App",
+    "text": "Our banking app offers secure account access, easy transfers, and financial management. Enjoy real-time balance updates, bill payments, and instant notifications for a seamless experience."
+  },
+  {
+    "id": 312,
+    "img": "https://positivethinking.tech/wp-content/uploads/2023/05/VS-Case-Study-Photo-800x450.jpg",
+    "title": "Cashless Payment",
+    "tag": "Marketing",
+    "text": "Fast, secure transactions without the need for physical cards. Enjoy seamless payments, instant processing, and enhanced security for a smooth, digital payment experience."
+  },
+  {
+    "id": 313,
+    "img": "https://ideausher.com/wp-content/uploads/2021/02/Frame-35-e1613999963229-1024x557.png",
+    "title": "Meditation App",
+    "tag": "App",
+    "text": "Guided sessions for relaxation, stress relief, and mindfulness. Enjoy personalized tracks, progress tracking, and a calming experience to enhance mental well-being."
+  },
+  {
+    "id": 314,
+    "img": "https://droptaxiinoneway.com/gleensic/2023/10/Different-types-of-Taxi-Service.jpg",
+    "title": "Taxi Service",
+    "tag": "Marketing",
+    "text": "Our taxi service app provides quick, reliable rides with real-time tracking. Enjoy easy booking, secure payments, and fast arrivals for a smooth and convenient travel experience."
+  },
+  {
+    "id": 315,
+    "img": "https://img.pikbest.com/wp/202347/incoming-call-cartoon-style-3d-illustration-smartphone-screen-displays_9763688.jpg!sw800",
+    "title": "Screen Illustrations",
+    "tag": "Design",
+    "text": "Bring digital interfaces to life with vibrant, engaging designs. Tailored to enhance user experience, they make apps and websites visually appealing and intuitive."
+  },
+  {
+    "id": 316,
+    "img": "https://images.theconversation.com/files/339942/original/file-20200604-67393-1dej576.jpg?ixlib=rb-4.1.0&rect=0%2C22%2C994%2C633&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+    "title": "Online Courses",
+    "tag": "Marketing",
+    "text": "Interactive, self-paced online courses to help users acquire new skills. With expert-led lessons and engaging content, learning has never been more accessible and convenient."
+  }
+]

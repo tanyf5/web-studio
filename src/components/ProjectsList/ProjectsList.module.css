@@ -1,0 +1,96 @@
+.list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  max-width: 288px;
+}
+
+.item {
+  max-width: 288px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.projectInfo {
+  padding: 8px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.image {
+  width: 280px;
+  height: 288px;
+  object-fit: cover;
+}
+
+.contentWrap {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolioContent {
+  display: flex;
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  height: 100%;
+  max-width: 288px;
+  padding: 40px 32px;
+  z-index: 10;
+  transform: translateY(100%); /* Сдвигаем элемент вниз для анимации */
+  transition: transform 250ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.item:hover .portfolioContent {
+  transform: translateY(0);
+}
+
+/*laptop*/
+@media screen and (min-width: 768px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    max-width: 736px;
+  }
+
+  .item {
+    max-width: 356px;
+  }
+
+  .image {
+    width: 356px;
+    height: 300px;
+  }
+
+  .portfolioContent {
+    max-width: 356px;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1440px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    max-width: 1128px;
+  }
+}
