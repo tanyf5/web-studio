@@ -1,31 +1,20 @@
 import css from "./ProjectsList.module.css";
-import projects from "../../data/projects.json";
-import { useState } from "react";
+import ProjectsItem from "../ProjectsItem/ProjectsItem";
 
-export default function ProjectsList() {
-  const [hoveredProjectId, setHoveredProjectId] = useState(null);
-
+export default function ProjectsList({ projects }) {
   return (
     <ul className={css.list}>
-      {projects.map((project) => (
-        <li
-          key={project.id}
-          className={css.item}
-          onMouseEnter={() => setHoveredProjectId(project.id)}
-          onMouseLeave={() => setHoveredProjectId(null)}
-        >
-          <div className={css.contentWrap}>
-            <img src={project.img} alt={project.title} className={css.image} />
-            {hoveredProjectId === project.id && (
-              <div className={css.portfolioContent}>{project.text}</div>
-            )}
-          </div>
-          <div className={css.projectInfo}>
-            <h3 className={css.title}>{project.title}</h3>
-            <p>{project.tag}</p>
-          </div>
-        </li>
-      ))}
+      {projects.map((project) => {
+        return (
+          <li key={project.id} className={css.item}>
+            <ProjectsItem
+              img={project.img}
+              title={project.title}
+              tag={project.tag}
+            />
+          </li>
+        );
+      })}
     </ul>
   );
 }

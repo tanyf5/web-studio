@@ -1,0 +1,32 @@
+.contentWrap {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  width: 280px;
+  height: 288px;
+  object-fit: cover;
+}
+
+.projectInfo {
+  padding: 8px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*laptop*/
+@media screen and (min-width: 768px) {
+  .image {
+    width: 356px;
+    height: 300px;
+  }
+}
