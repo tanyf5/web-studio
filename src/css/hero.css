@@ -249,6 +249,11 @@
   display: inline-flex;
 }
 
+.accept-input-label {
+  display: flex;
+  align-items: center;
+}
+
 #user-privacy:checked + .accept-input-label .checkbox-default {
   background-color: #404bbf;
   border: 1px solid #404bbf;
