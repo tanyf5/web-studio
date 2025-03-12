@@ -1,18 +1,94 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./benefits.css');
+@import url('./team.css');
+@import url('./portfolio.css');
 @import url('./footer.css');
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 4%;
+}
+
+a {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: none;
+  font-style: normal;
+  color: #434455;
+  margin: 0;
+  padding: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+}
